@@ -1,0 +1,27 @@
+{
+  "Personal": {
+    "fname": "Nattapon",
+    "lname": "Srivithayarat",
+    "age": 25
+  },
+  "Skills": {
+    "Language": {
+      
+    },
+    "Framework": {
+
+    },
+    "Database": {
+
+    },
+    "ETC": {
+
+    }
+  },
+  "Projects": {
+    "Project A": {
+      "Stack": "",
+      "Description": ""
+    }
+  }
+}
