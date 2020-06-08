@@ -5,9 +5,11 @@
     "age": 25
   },
   "Skills": {
-    "Language": {
-      
-    },
+    "Language": [
+      "JavaScript",
+      "HTML5",
+      "CSS"
+    ],
     "Framework": {
 
     },

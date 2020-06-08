@@ -131,6 +131,7 @@ module.exports = {
     },
     spacing: {
       px: '1px',
+      '65px': '65px',
       '0': '0',
       '1': '0.25rem',
       '2': '0.5rem',
@@ -457,6 +458,7 @@ module.exports = {
       '15r': '15rem',
       '20r': '20rem',
       '25r': '25rem',
+      '32r': '32rem',
       full: '100%',
       screen: '100vw',
     }),
