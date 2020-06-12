@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import axios from 'axios'
+// import axios from 'axios'
 import "./styles/tailwind/main.css";
 import './App.css';
+import Data from './data/data.json'
 import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
@@ -14,20 +15,19 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('./data/data.json').then(res => {
-      // console.log(res.data)
-      this.setState({ dataState : res.data}) 
-    })
+    console.log(Data)
+    this.setState({dataState : Data})
   }
 
   render() {
     return(
-      <>
+      <div>
+        {console.log('AongTest')}
         {console.log(this.state.dataState.Personal)}
         <Intro />
         <AboutMe Personal = {this.state.dataState.Personal} />
         <Skills />
-      </>
+      </div>
     )
   }
 }
