@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 class Intro extends Component {
   componentDidMount() {
-    console.log('Mount => Intro')
+    // console.log('Mount => Intro')
   }
   render() {
     return(
