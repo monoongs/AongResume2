@@ -1,6 +1,57 @@
 import React, { Component } from 'react'
 
 class Skills extends Component {
+
+  constructor(props) {
+    super(props)
+  }
+
+  componentDidMount() {
+    console.log('Skill Rendering')
+    console.log(this.props)
+  }
+
+  showLanguage() {
+    let language = ''
+    let length = this.props.Skills.Language.length
+
+    console.log(length)
+
+    for(let i=0; i<length; i++) {
+      if(i==0 || i==6) {
+        language += '<div className="flex flex-col">'
+      }
+      language += '<p>' + this.props.Skills.Language[i] + '</p>'
+      if(i==5 || i==length) {
+        language += '</div>'
+      }
+    }
+
+    // <div className="flex flex-col"> ทำ 0 1
+    //   <p>- JavaScript</p>
+    //   <p>- HTML5</p>
+    //   <p>- CSS</p>
+    // </div>
+    // <div className="flex flex-col">
+    //   <p>- SQL</p>
+    //   <p>- PLSQl</p>
+    // </div> 
+
+    return language
+  }
+
+  showFrameWork() {
+    return this.props.Skills.Framework.map( (framework) => (
+      <p>- {framework}</p>
+    ))
+  }
+
+  showDB() {
+    return this.props.Skills.Database.map( db => (
+      <p>- {db}</p>
+    ))
+  }
+
   render() {
     return( 
      <div className="bg-gray900 min-h-screen">
@@ -24,7 +75,8 @@ class Skills extends Component {
               <div className="flex flex-row justify-between text-white mx-3 
                 md:mx-5 md:flex-col
               ">
-                <div className="flex flex-col">
+                { this.showLanguage() }
+                {/* <div className="flex flex-col">
                   <p>- JavaScript</p>
                   <p>- HTML5</p>
                   <p>- CSS</p>
@@ -32,7 +84,7 @@ class Skills extends Component {
                 <div className="flex flex-col">
                   <p>- SQL</p>
                   <p>- PLSQl</p>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -41,8 +93,7 @@ class Skills extends Component {
                 <h2 className="text-white text-left lg:text-1.875r">Framework</h2>
                 <div className="flex flex-row justify-start text-white mx-3 md:mx-5">
                   <div className="flex flex-col">
-                    <p>- React</p>
-                    <p>- Node</p>
+                  { this.showFrameWork() }
                   </div>
                 </div>
               </div>
@@ -51,8 +102,7 @@ class Skills extends Component {
                 <h2 className="text-white text-left lg:text-1.875r">Database</h2>
                 <div className="flex flex-row justify-start text-white mx-3 md:mx-5">
                   <div className="flex flex-col">
-                    <p>- MySql</p>
-                    <p>- Oracle</p>
+                    { this.showDB()}
                   </div>
                 </div>
               </div>

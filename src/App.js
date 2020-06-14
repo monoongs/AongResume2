@@ -15,7 +15,7 @@ class App extends Component {
   }
 
 
-  componentDidMount() {
+  componentWillMount() {
     if(Data) {
       this.setState({dataState : Data})
     }
@@ -29,7 +29,7 @@ class App extends Component {
         <Intro />
         
         <AboutMe Personal = {this.state.dataState.Personal} />
-        <Skills />
+        <Skills Skills = { this.state.dataState.Skills } />
       </div>
     )
   }

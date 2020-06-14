@@ -8,14 +8,29 @@
     "Language": [
       "JavaScript",
       "HTML5",
-      "CSS"
+      "CSS",
+      "TypeScript",
+      "PHP",
+      "JAVA",
+      "C#",
+      "PL/SQL",
+      "SQL"
     ],
-    "Framework": {
-
-    },
-    "Database": {
-
-    },
+    "Framework": [
+      "React",
+      "NodeJS",
+      "Laravel",
+      "Spring",
+      "Bootstrap",
+      "Tailwindcss"
+    ],
+    "Database": [
+      "Oracle",
+      "MySql",
+      "MariaDb",
+      "SqlServer",
+      "MongoDB"
+    ],
     "ETC": {
 
     }

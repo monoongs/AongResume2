@@ -12,7 +12,7 @@ constructor(props) {
   
   render() {
     console.log('AbouMe Rendering')
-    if(this.props.Personal){
+   
       console.log(this.props.Personal.fname)
       const { age, fname, lname } = this.props.Personal
       
@@ -38,9 +38,7 @@ constructor(props) {
           </div>
         </div>
       )
-    } else {
-      return ( <div /> )
-    }
+    
   }
 }
 
