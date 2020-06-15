@@ -12603,6 +12603,10 @@ video {
   width: 2.5rem;
 }
 
+.w-12r {
+  width: 12rem;
+}
+
 .w-15r {
   width: 15rem;
 }
@@ -12617,6 +12621,10 @@ video {
 
 .w-32r {
   width: 32rem;
+}
+
+.w-40r {
+  width: 40rem;
 }
 
 .w-56r {
@@ -27406,6 +27414,10 @@ video {
     width: 2.5rem;
   }
 
+  .sm\:w-12r {
+    width: 12rem;
+  }
+
   .sm\:w-15r {
     width: 15rem;
   }
@@ -27420,6 +27432,10 @@ video {
 
   .sm\:w-32r {
     width: 32rem;
+  }
+
+  .sm\:w-40r {
+    width: 40rem;
   }
 
   .sm\:w-56r {
@@ -42210,6 +42226,10 @@ video {
     width: 2.5rem;
   }
 
+  .md\:w-12r {
+    width: 12rem;
+  }
+
   .md\:w-15r {
     width: 15rem;
   }
@@ -42224,6 +42244,10 @@ video {
 
   .md\:w-32r {
     width: 32rem;
+  }
+
+  .md\:w-40r {
+    width: 40rem;
   }
 
   .md\:w-56r {
@@ -57014,6 +57038,10 @@ video {
     width: 2.5rem;
   }
 
+  .lg\:w-12r {
+    width: 12rem;
+  }
+
   .lg\:w-15r {
     width: 15rem;
   }
@@ -57028,6 +57056,10 @@ video {
 
   .lg\:w-32r {
     width: 32rem;
+  }
+
+  .lg\:w-40r {
+    width: 40rem;
   }
 
   .lg\:w-56r {
@@ -71818,6 +71850,10 @@ video {
     width: 2.5rem;
   }
 
+  .xl\:w-12r {
+    width: 12rem;
+  }
+
   .xl\:w-15r {
     width: 15rem;
   }
@@ -71832,6 +71868,10 @@ video {
 
   .xl\:w-32r {
     width: 32rem;
+  }
+
+  .xl\:w-40r {
+    width: 40rem;
   }
 
   .xl\:w-56r {

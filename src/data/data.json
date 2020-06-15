@@ -5,17 +5,22 @@
     "age": 25
   },
   "Skills": {
-    "Language": [
-      "JavaScript",
-      "HTML5",
-      "CSS",
-      "TypeScript",
-      "PHP",
-      "JAVA",
-      "C#",
-      "PL/SQL",
-      "SQL"
-    ],
+    "Language": {
+      "Primary" : [
+        "JavaScript",
+        "HTML5",
+        "CSS",
+        "TypeScript",
+        "PHP"
+      ],
+      "Secondary" :[
+        "JAVA",
+        "C#",
+        "PL/SQL",
+        "SQL",
+        "Shell Script"
+      ]
+    },
     "Framework": [
       "React",
       "NodeJS",
@@ -31,9 +36,17 @@
       "SqlServer",
       "MongoDB"
     ],
-    "ETC": {
-
-    }
+    "ETC": [
+      "Wordpress",
+      "jQuery",
+      "Git",
+      "Docker",
+      "Linux",
+      "VSCODE",
+      "Vim",
+      "Excel",
+      "Photoshop"
+    ]
   },
   "Projects": {
     "Project A": {
