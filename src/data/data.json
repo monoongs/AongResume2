@@ -48,10 +48,48 @@
       "Photoshop"
     ]
   },
-  "Projects": {
-    "Project A": {
-      "Stack": "",
-      "Description": ""
+  "Projects": [
+    {
+      "ZortOut.com": {
+        "Stack": "Wordpress",
+        "Description": "หน้าเว็บระบบจัดการร้านค้าออนไลน์"
+      }
+    }, 
+    {
+      "Reflekart.com": {
+        "Stack": "Wordpress",
+        "Description": "หน้าเว็บร้านขายรูปออนไลน์"
+      }
+    },
+    {
+      "One2Car": {
+        "Stack": "Php MySql",
+        "Description": "ระบบบจัดการเตนท์รถมือสอง"
+      }
+    },
+    {
+      "OneHello Callcenter": {
+        "Stack": "Postgresql NodeJs(Express) Laravel",
+        "Description": "(Outsoruce) ระบบคอลเซ็นเตอร์"
+      }
+    },
+    {
+      "GoodayGoodtime": {
+        "Stack": "MongoDB NodeJs React",
+        "Description": "ระบบ POS ร้านชาไข่มุก"
+      }
+    },
+    {
+      "Smartfinn": {
+        "Stack": "Postgresql Pyton(Django)",
+        "Desctiption": "ระบบรีไฟแนนซ์"
+      }
+    },
+    {
+      "Seamless NHSO": {
+        "Stack": "Java Oracle",
+        "Desctiption": "(Outsource) ระบบจัดการการจ่ายเงินของโรงพยาลต่างๆ ภายใต้ สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช)"
+      }
     }
-  }
+   ]
 }
