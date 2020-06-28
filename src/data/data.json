@@ -50,46 +50,34 @@
   },
   "Projects": [
     {
-      "ZortOut.com": {
-        "Stack": "Wordpress",
-        "Description": "หน้าเว็บระบบจัดการร้านค้าออนไลน์"
-      }
+      "Name": "ZortOut.com",
+      "Stack": "Wordpress",
+      "Description": "หน้าเว็บระบบจัดการร้านค้าออนไลน์"
     }, 
     {
-      "Reflekart.com": {
-        "Stack": "Wordpress",
-        "Description": "หน้าเว็บร้านขายรูปออนไลน์"
-      }
+      "Nanem": "One2Car",
+      "Stack": "Php MySql",
+      "Description": "ระบบบจัดการเตนท์รถมือสอง"
     },
     {
-      "One2Car": {
-        "Stack": "Php MySql",
-        "Description": "ระบบบจัดการเตนท์รถมือสอง"
-      }
+      "Name": "OneHello Callcenter",
+      "Stack": "Postgresql NodeJs(Express) Laravel",
+      "Description": "(Outsoruce) ระบบคอลเซ็นเตอร์"
     },
     {
-      "OneHello Callcenter": {
-        "Stack": "Postgresql NodeJs(Express) Laravel",
-        "Description": "(Outsoruce) ระบบคอลเซ็นเตอร์"
-      }
+      "Name": "GoodayGoodtime",
+      "Stack": "MongoDB NodeJs React",
+      "Description": "ระบบ POS ร้านชาไข่มุก"
     },
     {
-      "GoodayGoodtime": {
-        "Stack": "MongoDB NodeJs React",
-        "Description": "ระบบ POS ร้านชาไข่มุก"
-      }
+      "Name": "Smartfinn",
+      "Stack": "Postgresql Pyton(Django)",
+      "Desctiption": "ระบบรีไฟแนนซ์"
     },
     {
-      "Smartfinn": {
-        "Stack": "Postgresql Pyton(Django)",
-        "Desctiption": "ระบบรีไฟแนนซ์"
-      }
-    },
-    {
-      "Seamless NHSO": {
-        "Stack": "Java Oracle",
-        "Desctiption": "(Outsource) ระบบจัดการการจ่ายเงินของโรงพยาลต่างๆ ภายใต้ สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช)"
-      }
+      "Name": "Seamless NHSO",
+      "Stack": "Java Oracle",
+      "Desctiption": "(Outsource) ระบบจัดการการจ่ายเงินของโรงพยาลต่างๆ ภายใต้ สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช)"
     }
-   ]
+  ]
 }
