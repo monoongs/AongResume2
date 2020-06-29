@@ -55,7 +55,7 @@
       "Description": "หน้าเว็บระบบจัดการร้านค้าออนไลน์"
     }, 
     {
-      "Nanem": "One2Car",
+      "Name": "One2Car",
       "Stack": "Php MySql",
       "Description": "ระบบบจัดการเตนท์รถมือสอง"
     },
