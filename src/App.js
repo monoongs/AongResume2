@@ -6,7 +6,7 @@ import Data from './data/data.json'
 import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
-import Exp from './components/Exp'
+import Exps from './components/Exps'
 
 class App extends Component { 
 
@@ -31,7 +31,7 @@ class App extends Component {
         
         <AboutMe Personal = {this.state.dataState.Personal} />
         <Skills Skills = { this.state.dataState.Skills } />
-        <Exp Exp = { this.state.dataState.Projects}></Exp>
+        <Exps Exps = { this.state.dataState.Projects}></Exps>
       </div>
     )
   }

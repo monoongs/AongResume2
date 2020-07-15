@@ -52,31 +52,37 @@
     {
       "Name": "ZortOut.com",
       "Stack": "Wordpress",
+      "Img": "img.jpg",
       "Description": "หน้าเว็บระบบจัดการร้านค้าออนไลน์"
     }, 
     {
       "Name": "One2Car",
       "Stack": "Php MySql",
+      "Img": "img.jpg",
       "Description": "ระบบบจัดการเตนท์รถมือสอง"
     },
     {
       "Name": "OneHello Callcenter",
       "Stack": "Postgresql NodeJs(Express) Laravel",
+      "Img": "img.jpg",
       "Description": "(Outsoruce) ระบบคอลเซ็นเตอร์"
     },
     {
       "Name": "GoodayGoodtime",
       "Stack": "MongoDB NodeJs React",
+      "Img": "img.jpg",
       "Description": "ระบบ POS ร้านชาไข่มุก"
     },
     {
       "Name": "Smartfinn",
       "Stack": "Postgresql Pyton(Django)",
+      "Img": "img.jpg",
       "Desctiption": "ระบบรีไฟแนนซ์"
     },
     {
       "Name": "Seamless NHSO",
       "Stack": "Java Oracle",
+      "Img": "img.jpg",
       "Desctiption": "(Outsource) ระบบจัดการการจ่ายเงินของโรงพยาลต่างๆ ภายใต้ สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช)"
     }
   ]
