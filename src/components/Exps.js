@@ -33,7 +33,7 @@ constructor(props) {
            <div className="flex pb-3">
             <h1 className="text-white text-base mx-auto text-2r lg:text-4r">Experience</h1>
            </div>
-           <div className="flex flex-col">
+           <div className="flex flex-wrap">
             <Exp exp = {this.props.Exps} />
            </div>
          </div>

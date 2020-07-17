@@ -7,6 +7,7 @@ import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Exps from './components/Exps'
+import Footer from './components/Footer'
 
 class App extends Component { 
 
@@ -32,6 +33,7 @@ class App extends Component {
         <AboutMe Personal = {this.state.dataState.Personal} />
         <Skills Skills = { this.state.dataState.Skills } />
         <Exps Exps = { this.state.dataState.Projects}></Exps>
+        <Footer />
       </div>
     )
   }
