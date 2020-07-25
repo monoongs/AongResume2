@@ -13,6 +13,10 @@
   src: url('/fonts/Prompt-Bold.ttf');
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Prompt-Medium';
 }
@@ -58,4 +62,14 @@ h1, h2, h3, h4, h5, h6 {
   to {
     transform: rotate(360deg);
   }
+}
+
+.scrollingLeft, .scrollingRight {
+  left: 0;
+  right: 0;
+  position: relative;
+}
+
+.rotate {
+  transform: rotate(0deg);
 }
