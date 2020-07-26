@@ -8,10 +8,24 @@ constructor(props) {
 }
 
 componentDidMount() {
+  
   $(document).on('scroll', () => {
+    let setScrollin = Math.min(-600 + 1.3 * window.scrollY,0)
+    let setScrollOut = Math.max(0 + 1.3 * (window.scrollY-(window.scrollY-10)))
+
+    if(window.scrollY > 470) {
+      console.log(setScrollOut)
+      $('.about .rotateLeft').css('left', setScrollOut + 'px')
+      // $('.about .rotateRight').css('right', setScrollOut + 'px')
+    } else {
+      $('.about .rotateLeft').css('left', setScrollin + 'px')
+      $('.about .rotateRight').css('right', setScrollin + 'px')
+    }
     
-    // $('.about .rotate').css('transform',  'rotate(' + Math.max(0 + 1.3 * window.scrollY) + 'deg)')
     // console.log(window.scrollY)
+    // if(setScroll == 0) {
+    //   alert(window.scrollY) //470
+    // }
   })
 }
   
@@ -31,13 +45,13 @@ componentDidMount() {
             ">
             <div className="wrap flex flex-row items-center ">
               <div className="flex text-center justify-center w-2.5r md:w-12r ">
-                <p className="text-white text-base md:text-3r lg:text-6.5r rotate">{'<'}</p>
+                <p className="text-white text-base md:text-3r lg:text-6.5r rotateLeft">{'<'}</p>
               </div>
               <div className="flex w-15r md:w-25r justify-center">
                 <p className="text-white text-sm md:text-base lg:text-lg "><span className='text-2xl'>H</span>ello ! I'm {fname} {lname} {age} year-old, I am a Programmer working on creating a website sometime I make frontend sometime I make backend and sometime I making full of the website</p>      
               </div>
               <div className="flex text-center justify-center w-2.5r md:w-12r">
-                <p className="text-white text-base md:text-3r lg:text-6.5r rotate">{'/>'}</p>
+                <p className="text-white text-base md:text-3r lg:text-6.5r rotateRight">{'/>'}</p>
               </div>
             </div>
           </div>
