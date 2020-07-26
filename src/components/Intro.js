@@ -25,7 +25,7 @@ class Intro extends Component {
               <h2 className="text-1.35r text-center md:text-right md:text-2r lg:text-3.25r text-white scrollingRight">Im Web Developer</h2>
             </div>
             <div className="w-1/2 py-5">
-              <img src="./img/gentleman.jpg" />
+              <img src="./img/me2.jpg" />
             </div>
           </div>         
         </div>

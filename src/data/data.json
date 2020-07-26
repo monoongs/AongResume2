@@ -56,33 +56,33 @@
       "Description": "หน้าเว็บระบบจัดการร้านค้าออนไลน์"
     }, 
     {
-      "Name": "One2Car",
+      "Name": "AutoSoftware",
       "Stack": "Php MySql",
-      "Img": "/img/exp/zort.jpg",
+      "Img": "/img/exp/autosoftware.jpg",
       "Description": "ระบบบจัดการเตนท์รถมือสอง"
     },
     {
       "Name": "OneHello Callcenter",
       "Stack": "Postgresql NodeJs(Express) Laravel",
-      "Img": "/img/exp/zort.jpg",
+      "Img": "/img/exp/1hello.jpg",
       "Description": "(Outsoruce) ระบบคอลเซ็นเตอร์"
     },
     {
       "Name": "GoodayGoodtime",
       "Stack": "MongoDB NodeJs React",
-      "Img": "/img/exp/zort.jpg",
+      "Img": "/img/exp/gdgt.jpg",
       "Description": "ระบบ POS ร้านชาไข่มุก"
     },
     {
       "Name": "Smartfinn",
       "Stack": "Postgresql Pyton(Django)",
-      "Img": "/img/exp/zort.jpg",
+      "Img": "/img/exp/smartfinn.jpg",
       "Desctiption": "ระบบรีไฟแนนซ์"
     },
     {
       "Name": "Seamless NHSO",
       "Stack": "Java Oracle",
-      "Img": "/img/exp/zort.jpg",
+      "Img": "/img/exp/seamless.jpg",
       "Desctiption": "(Outsource) ระบบจัดการการจ่ายเงินของโรงพยาลต่างๆ ภายใต้ สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช)"
     }
   ]
