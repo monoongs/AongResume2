@@ -77,13 +77,13 @@
       "Name": "Smartfinn",
       "Stack": "Postgresql Pyton(Django)",
       "Img": "/img/exp/smartfinn.jpg",
-      "Desctiption": "ระบบรีไฟแนนซ์"
+      "Description": "ระบบรีไฟแนนซ์"
     },
     {
       "Name": "Seamless NHSO",
       "Stack": "Java Oracle",
       "Img": "/img/exp/seamless.jpg",
-      "Desctiption": "(Outsource) ระบบจัดการการจ่ายเงินของโรงพยาลต่างๆ ภายใต้ สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช)"
+      "Description": "(Outsource) ระบบจัดการการจ่ายเงินของโรงพยาลต่างๆ ภายใต้ สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช)"
     }
   ]
 }
