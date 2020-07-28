@@ -13,15 +13,14 @@ componentDidMount() {
 
   let windowsize = $(window).width();
 
-  
+  // console.log(window.scrollY)
   windowsize = $(window).width();
-  console.log('test')
     if (windowsize > 760) {
       let setScrollin = Math.min(-600 + 1.3 * window.scrollY,0)
       let setScrollOut = Math.max(0 + 1.3 * (window.scrollY-(window.scrollY-10)))
 
       if(window.scrollY > 470) {
-        console.log(setScrollOut)
+        // console.log(setScrollOut)
         $('.about .rotateLeft').css('left', setScrollOut + 'px')
         // $('.about .rotateRight').css('right', setScrollOut + 'px')
       } else {
@@ -33,9 +32,9 @@ componentDidMount() {
 }
   
   render() {
-    console.log('AbouMe Rendering')
+    // console.log('AbouMe Rendering')
    
-      console.log(this.props.Personal.fname)
+      // console.log(this.props.Personal.fname)
       const { age, fname, lname } = this.props.Personal
       
       return(

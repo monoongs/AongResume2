@@ -7,8 +7,8 @@ class Skills extends Component {
   }
 
   componentDidMount() {
-    console.log('Skill Rendering')
-    console.log(this.props)
+    // console.log('Skill Rendering')
+    // console.log(this.props)
   }
 
   showData(param) {

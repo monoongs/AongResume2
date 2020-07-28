@@ -26,8 +26,8 @@ class App extends Component {
   render() {
     return(
       <div>
-        {console.log('AongTest')}
-        {console.log(this.state)}
+        {/* {console.log('AongTest')} */}
+        {/* {console.log(this.state)} */}
         <Intro />
         
         <AboutMe Personal = {this.state.dataState.Personal} />

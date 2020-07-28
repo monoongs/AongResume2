@@ -77,3 +77,28 @@ h1, h2, h3, h4, h5, h6 {
 .rotateLeft {
   left: 0;
 }
+
+.download-btn {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  bottom: 100px;
+  right: 70px;
+  background-color: #424242;
+  border-radius: 9999px;
+  height: 8.5rem;
+  width: 8.5rem;
+  margin:auto;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.footer {
+  background-color: #1A212C;
+}

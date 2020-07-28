@@ -5,9 +5,19 @@ import $ from 'jquery';
 class Intro extends Component {
   componentDidMount() {
     $(document).on('scroll', () => {
+      let windowsize = $(window).width();
+      // console.log(window.scrollY)
       $('.intro .scrollingLeft').css('left', Math.max(0 - 1.3 * window.scrollY) + 'px')
       $('.intro .scrollingRight').css('left', Math.max(0 + 1.3 * window.scrollY) + 'px')
       // console.log(window.scrollY)
+      if (windowsize < 450) {
+        if( window.scrollY > 240 ) {
+          $('.intro .scrollingRight').addClass('hide')
+        } else {
+          $('.intro .scrollingRight').removeClass('hide')
+        }
+        
+      } 
     })
   }
   render() {

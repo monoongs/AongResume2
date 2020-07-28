@@ -7,8 +7,8 @@ constructor(props) {
 }
 
   componentDidMount() {
-    console.log('Exp Rendering')
-    console.log(this.props)
+    // console.log('Exp Rendering')
+    // console.log(this.props)
   }
   
   render() {
