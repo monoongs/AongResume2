@@ -7,7 +7,7 @@ class DownloadCV extends Component {
                 <div class='download-btn'>
                     <div class="wrap my-auto">
                         <img src="/img/download-btn2.png" width="50px" class="mx-auto" />
-                        <p class="text-white text-center mx-auto text-sm">Donwload My CV</p>
+                        <p class="text-white text-center mx-auto text-sm">Download My CV</p>
                     </div>
                 </div>
             </a>
